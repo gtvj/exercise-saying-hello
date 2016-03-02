@@ -2,12 +2,8 @@ class SayHello
 
   attr_accessor :name
   
-  def prepare_greeting
-    "Hey, my name is Ruby. Nice to meet you #{@name}."
-  end
-
   def greet
-    return prepare_greeting
+    "Hey, my name is Ruby. Nice to meet you #{@name}."
   end
 
   def prompt_for_name
